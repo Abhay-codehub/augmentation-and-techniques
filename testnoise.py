@@ -4,8 +4,7 @@ import os
 from joblib import Parallel, delayed
 
 def denoise(image):
-    dst = cv2.fastNlMeansDenoisingColored(image, None, 10, 10, 7, 21)
-    return dst
+
 
 def batch_denoise(input_folder, output_folder):
     if not os.path.exists(output_folder):
@@ -24,3 +23,7 @@ def process_file(input_folder, output_folder, file):
 input_folder = 'input_images/'
 output_folder = 'output_images/'
 batch_denoise(input_folder, output_folder)
+
+abhay sahsdbasdadhaxcaixj
+skdnasd
+asnasccaiscj''
