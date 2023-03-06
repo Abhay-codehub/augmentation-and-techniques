@@ -32,7 +32,7 @@ plt.imshow(img,camp=plt.cm.gray)
 plt.title('Original Image',fontsize=30)
 
 plt.subplot(2,2,2)
-plt.imshow(imgn camp=plt.cm.gray)
+plt.imshow(imgn,cmap=plt.cm.gray)
 plt.title('Noisy Image',fontsize=30)
 
 plt.subplot(2,2,3)
